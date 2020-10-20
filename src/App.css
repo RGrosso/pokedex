@@ -42,11 +42,125 @@ img {
     width: 100%;
 }
 
-.type p {
-    text-transform: capitalize;
-}
-
 .types {
     display: flex;
     flex-flow: row;
 }
+
+.type {
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px 0 7px;
+    width: 8em;
+    color: #fff;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #68a090;
+    border-color: #44685e;
+}
+
+.type p {
+    margin: 0;
+    line-height: 1;
+    text-shadow: rgba(0, 0, 0, 0.5) 1px 0px 0px, rgba(0, 0, 0, 0.5) 0.540302px 0.841471px 0px,
+        rgba(0, 0, 0, 0.5) -0.416147px 0.909297px 0px, rgba(0, 0, 0, 0.5) -0.989992px 0.14112px 0px,
+        rgba(0, 0, 0, 0.5) -0.653644px -0.756802px 0px, rgba(0, 0, 0, 0.5) 0.283662px -0.958924px 0px,
+        rgba(0, 0, 0, 0.5) 0.96017px -0.279415px 0px;
+}
+
+/* [Start] Types colours */
+.normal {
+    background-color: #a8a878;
+    border-color: #6d6d4e;
+}
+
+.fire {
+    background-color: #f08030;
+    border-color: #9c531f;
+}
+
+.fighting {
+    background-color: #c03028;
+    border-color: #7d1f1a;
+}
+
+.water {
+    background-color: #6890f0;
+    border-color: #445e9c;
+}
+
+.flying {
+    background-color: #a890f0;
+    border-color: #6d5e9c;
+}
+
+.grass {
+    background-color: #78c850;
+    border-color: #4e8234;
+}
+
+.poison {
+    background-color: #a040a0;
+    border-color: #682a68;
+}
+
+.electric {
+    background-color: #f8d030;
+    border-color: #a1871f;
+}
+
+.ground {
+    background-color: #e0c068;
+    border-color: #927d44;
+}
+
+.psychic {
+    background-color: #f85888;
+    border-color: #a13959;
+}
+
+.rock {
+    background-color: #b8a038;
+    border-color: #786824;
+}
+
+.ice {
+    background-color: #98d8d8;
+    border-color: #638d8d;
+}
+
+.bug {
+    background-color: #a8b820;
+    border-color: #6d7815;
+}
+
+.dragon {
+    background-color: #7038f8;
+    border-color: #4924a1;
+}
+
+.ghost {
+    background-color: #705898;
+    border-color: #493963;
+}
+
+.dark {
+    background-color: #705848;
+    border-color: #49392f;
+}
+
+.steel {
+    background-color: #b8b8d0;
+    border-color: #787887;
+}
+
+.fairy {
+    background-color: #ee99ac;
+    border-color: #9b6470;
+}
+
+/* [End] Types colours */
