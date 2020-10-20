@@ -1,6 +1,6 @@
 import React from "react";
 import Pokemon from "./pokemon";
-const COUNT = 9;
+const COUNT = 151;
 
 export default function PokemonManager() {
     const returnPokemon = () => {

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Type from "./type";
+import Stats from "./stats";
 export default function Pokemon({ pokemonId }) {
     const [pokemonData, setPokemonData] = useState(false);
 
@@ -25,7 +26,9 @@ export default function Pokemon({ pokemonId }) {
             <div className="pokemon-content">
                 <p>{generateId()}</p>
                 <p className="name">{pokemonData.name}</p>
-                <img src={pokemonData.sprites.front_default} alt={pokemonData.name} />
+                <img src={`https://pokeres.bastionbot.org/images/pokemon/${pokemonId}.png`} alt={pokemonData.name} />
+                {/* <img src={pokemonData.sprites.front_default} alt={pokemonData.name} /> */}
+                <Stats stats={pokemonData.stats} pokemonId={pokemonId} />
                 <div className="types">
                     {pokemonData.types
                         ? pokemonData.types.map((type) => {
